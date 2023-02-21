@@ -5,6 +5,8 @@
 # 使用方法
 
 
-python3 .\nmap_scan.py 192.168.0.1 线程数
+python3 .\nmap_scan.py 192.168.0.1 线程数      
+
+
 python3 .\nmap_scan.py 192.168.0.0/24 线程数
 
