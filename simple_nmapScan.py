@@ -3,6 +3,11 @@
 # nmap端口扫描器简略版
 # 教程参考：https://juejin.cn/post/6976264296732819463
 #       https://www.cnblogs.com/bmjoker/p/10574598.html
+###########
+# 使用方法：
+# python .\nmap_scan.py 192.168.0.1 线程数
+# python .\nmap_scan.py 192.168.0.0/24 线程数
+###########
 import sys
 from concurrent.futures import ThreadPoolExecutor
 import netaddr
